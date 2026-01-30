@@ -1,0 +1,49 @@
+<!-- 1 -->
+
+<!--
+name ატრიბუტი განსაზღვრავს ველის სახელს, რომლის მიხედვითაც სერვერი იღებს მონაცემს
+ფორმის გაგზავნისას მონაცემი იგზავნება name და value წყვილის სახით
+
+value ატრიბუტი განსაზღვრავს იმ მნიშვნელობას, რომელიც სერვერზე იგზავნება შესაბამისი name-ისთვის
+value არის ველში არსებული ან წინასწარ მინიჭებული მონაცემი
+-->
+
+<!-- 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+
+<form>
+    <label>First Name:</label>
+    <input type="text" name="firstname"><br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lastname"><br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Country:</label>
+    <select name="country">
+        <option>india</option>
+        <option>Georgia</option>
+        <option>USA</option>
+        <option>Germany</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
