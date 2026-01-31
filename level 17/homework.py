@@ -43,7 +43,7 @@ numbers = [3, -1, 0, 7, -5, 0, 2, -8]
 
 positive = 0
 negative = 0
-zero_count = 0
+
 
 
 for num in numbers:
@@ -52,13 +52,12 @@ for num in numbers:
     elif num < 0:
         negative += 1         
     else:
-        zero_count += 1       
+        print("zero")    
 
 
-print("Positive sum:", positive)
-print("Negative count:", negative)
-for i in range(zero_count):
-    print("zero")
+print( positive)
+print( negative)
+
 
 
 
