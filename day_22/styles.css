@@ -1,0 +1,21 @@
+/* 7 */
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+
+p {
+    color: black;
+    font-size: 18px;
+    background-color: #5900ff;
+    padding: 10px;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto; 
+    border: 2px solid black;
+}
