@@ -11,7 +11,7 @@ print(list)
 
 surname = input("Enter your surname: ")
 
-print(surname.find("shvili") != -1)
+print(surname[-6:] == "shvili")
 
 #3
 
