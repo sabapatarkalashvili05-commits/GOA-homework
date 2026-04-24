@@ -1,0 +1,24 @@
+#paragraph {
+    color: blue;
+    background-color: gray;
+    font-size: 30px;
+}
+
+p {
+    color: red;
+    background-color: black;
+    font-size: 35px;
+}
+
+b {
+    color: blue;
+    background-color: gray;
+    font-size: 30px;
+}
+
+
+body {
+    background-color: aqua;
+    
+}
+
