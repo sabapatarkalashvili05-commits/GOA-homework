@@ -1,0 +1,55 @@
+/* 1 */
+
+/* tag selector — ირჩევს ყველა ერთნაირ თეგს */
+
+/* class selector — ირჩევს ელემენტებს class ით შეგვიზლია გამოვიყენოთ მრავალჯერ */
+
+/* id selector — ირჩევს ერთ უნიკალურ ელემენტს id ის მეშვეიბით */
+
+
+/* 2 */
+
+
+/* პირვული tag  */
+
+p {
+    color: red;
+}
+
+/*  class  */
+
+.text {
+    color: blue;
+}
+
+/*id ყველაზე პრიორიტეტული */
+
+#unique {
+    color: green;
+}
+
+
+/* ამ დავალებაში პარაგრაფს მიენიჭა id რადგან იგი არის ყველაზე პრიორიტეტულია  */
+
+
+/* 3 */
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+div p {
+    width: 25%;
+    height: 25%;
+    background-color: lightblue;
+}
+
+/* 4 */
+
+
+#p2 {
+    color: rgb(111, 158, 215);
+}

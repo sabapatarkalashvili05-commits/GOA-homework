@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #53fcfc;
+}
+
+#p1 {
+    color: blueviolet;
+    font-size: 20px;
+    border: 10px;
+    border-radius: 10%;
+}
+
+
+#p2 {
+    color: aquamarine;
+    font-size: 20px;
+    border: 10px;
+    border-radius: 10%;
+}
+
+
+#p3 {
+    color: green;
+    font-size: 20px;
+    border: 10px;
+    border-radius: 10%;
+}
+
+img {
+    height: 300px;
+}
