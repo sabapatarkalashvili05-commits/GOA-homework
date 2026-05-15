@@ -1,0 +1,10 @@
+h1 {
+    text-align: right;
+    text-decoration: solid green line-through;
+    text-shadow:0 0 10px blue;
+}
+
+p {
+    text-align: justify;
+    text-decoration: solid red line-through;
+}

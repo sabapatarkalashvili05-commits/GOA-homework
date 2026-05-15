@@ -1,0 +1,15 @@
+p {
+    text-align: justify;
+}
+
+#p1 {
+    text-align: center;
+    color: rgb(0, 136, 255);
+    font-size: larger;
+}
+
+#p2 {
+    text-decoration: dotted green line-through;
+    text-align: center;
+    font-size: 50px;
+}

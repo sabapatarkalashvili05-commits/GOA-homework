@@ -1,0 +1,39 @@
+    body {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    h1 {
+        color: lime;
+    }
+
+    img {
+        width: 300px;
+
+    }
+
+
+
+
+
+    button {
+        background-color: lime;
+
+
+
+        font-size: 16px;
+    }
+
+    h1 {
+        text-decoration: line-through;
+    }
+
+
+    #h {
+        text-decoration: underline;
+    }
+
+    p {
+        text-decoration: wavy blue;
+    }
