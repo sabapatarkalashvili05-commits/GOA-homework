@@ -1,0 +1,37 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button {
+    transition: 2.5s;
+}
+
+button:hover {
+    color: red;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 234, 255);
+    transition: 1.5s;
+}
+
+
+div:hover{
+    background-color: purple;
+    width: 300px;
+    height: 300px
+}
+
+
+
+a:link {
+    color: green;
+}
+
+
+a:hover {
+    color: red;
+}

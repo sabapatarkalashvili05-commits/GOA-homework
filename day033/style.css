@@ -1,0 +1,24 @@
+/* font-weight ტექსტის სისქეს განსაზღვრავს */
+/* font-family ტექსტის სტილს ანუ შრიფტს განსაზღვრავს */ 
+
+p {
+    font-weight: 600;
+}
+
+/* font-family: "Doto", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+/* font-family: "Instrument Serif", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+#p1 {
+    font-family: "Doto", sans-serif;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 500;
+}
+

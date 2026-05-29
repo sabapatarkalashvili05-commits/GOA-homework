@@ -1,0 +1,95 @@
+/* font-family: "Bitcount Grid Single", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+
+h1 {
+    text-align: center;
+    font-size: medium;
+    color: navy;
+}
+
+
+p {
+    text-align: center;
+    font-size: medium;
+    color: navy;
+    font-family: "Bitcount Grid Single", system-ui;
+}
+
+* {
+    background-color: black;
+}
+
+#GOA {
+    width: 200px;
+}
+
+#gojy {
+    width: 200px
+}
+
+#p1 {
+    text-align: center;
+    font-size: medium;
+    color: green;
+    font-family: "Bitcount Grid Single", system-ui;
+    text-decoration: underline solid green;
+    text-decoration-style: wavy;
+}
+
+#H1 {
+    text-align: center;
+    font-size: medium;
+    color: green;
+    text-decoration: underline solid green;
+    text-decoration-style: wavy;
+}
+
+
+#karate {
+    text-align: center;
+    font-size: medium;
+    color: rgb(255, 0, 0);
+    font-family: "Bitcount Grid Single", system-ui;
+}
+
+#p2 {
+    text-align: justify;
+    font-size: medium;
+    color: red;
+}
+
+#idk {
+    text-align: center;
+    font-size: medium;
+    color: rgb(0, 128, 128);
+    text-decoration: underline solid rgb(0, 255, 255);
+}
+
+
+
+
+#car {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+#BMW {
+    color: rgb(0, 128, 128);
+    text-decoration: underline solid rgb(0, 255, 255);
+}
+
+#doggy {
+    
+    width: 200px;
+}
