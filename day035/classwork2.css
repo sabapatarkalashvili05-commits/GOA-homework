@@ -1,0 +1,14 @@
+
+
+ul {
+list-style-type: circle; 
+}
+
+ol {
+    list-style-type: upper-roman;
+    border: 2px solid black;
+}
+
+#ul {
+    list-style-image: url("./image.png");
+}

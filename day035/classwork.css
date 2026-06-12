@@ -1,0 +1,21 @@
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+th {
+    background-color: lightgreen;
+}
+
+p{
+    color: green;
+    font-size: 30px;
+}
+
+#hello {
+    font-size: 10px;
+    
+}

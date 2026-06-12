@@ -1,0 +1,14 @@
+
+
+table {
+    background-color: rgb(0, 14, 42);
+}
+
+tr {
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(1) {
+    color: yellow;
+}
