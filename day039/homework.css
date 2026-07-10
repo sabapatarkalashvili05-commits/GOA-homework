@@ -1,0 +1,50 @@
+
+
+#parent{
+    border: 5px solid blue;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.child {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: silver
+    
+}
+
+#parent2{
+    border: 5px solid rgb(0, 0, 0);
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#child1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    align-self: flex-start;
+    
+}
+
+#child2 {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    align-self: flex-end;
+    
+}

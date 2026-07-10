@@ -1,0 +1,45 @@
+
+*{
+    background-color: black;
+}
+
+div{
+    border: 5px solid rgb(255, 255, 255);
+    width: 30%;
+}
+
+#div2 {
+    border: 5px solid rgb(255, 255, 255);
+    width: 30%;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: flex-start;
+}
+
+img{
+    width: 300px;
+    display: flex;
+    
+
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color:white;
+
+}
+
+#div3 {
+    border: 5px solid rgb(255, 255, 255);
+    width: 30%;
+    display: flex;
+    justify-self: flex-end;
+    text-align: center;
+    align-items: flex-start;
+}
