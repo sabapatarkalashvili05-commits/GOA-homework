@@ -1,0 +1,35 @@
+
+.parent {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border: black solid ;
+    gap: 5px;
+}
+
+
+.child {
+    height: 50px;
+    width: 50px;
+    border: rgb(251, 0, 0) solid ;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.c1 {
+    flex-grow: 1;
+}
+
+.c2 {
+    flex-grow: 2;
+}
+
+.c3 {
+    flex-grow: 3;
+}
+
+/* სივრცე ამ დივ ზე ისე განაწილდა რომ ყველაზე დიდი ადგილი დაკავებული აქვს .c3 რადგან მას ყველაზე დიდი flex-grow:3 აქვს მითიტებული*/
+/* სივრცე ამ დივ ზე ისე განაწილდა რომ საშუალო ადგილი დაკავებული აქვს .c2 რადგან მას ყველაზე დიდი flex-grow:2 აქვს მითიტებული*/
+/* სივრცე ამ დივ ზე ისე განაწილდა რომ ყველაზე პატარა ადგილი დაკავებული აქვს .c1 რადგან მას ყველაზე დიდი flex-grow:1 აქვს მითიტებული*/

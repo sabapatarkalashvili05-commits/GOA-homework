@@ -1,0 +1,38 @@
+
+#parent {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: black solid ;
+    gap: 5px;
+}
+
+.child {
+    height: 50px;
+    width: 50px;
+    border: rgb(251, 0, 0) solid ;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.c1 {
+align-self: flex-start;
+}
+
+.c2 {
+    align-self: flex-end;
+}
+
+.c3 {
+    align-self: center ;
+}
+
+.c4 {
+    align-self: flex-start;
+}
+
+.c5 {
+    align-self: flex-end;
+}
